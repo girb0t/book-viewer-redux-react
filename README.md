@@ -7,7 +7,7 @@ Things learned/practiced: **Redux**, **React**, **ES2015**
 
 ##Setup
 - `git clone https://github.com/girb0t/book-viewer-redux-react.git`
-- `cd react-redux-tutorial`
+- `cd book-viewer-redux-react`
 - `npm install`
 - `npm start`
 - Visit `http://localhost:8080/`
