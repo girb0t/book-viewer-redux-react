@@ -20,7 +20,7 @@ import { selectBook } from '../actions/index';
 
   render() {
     return (
-      <ul className="list-group col-sm-4">
+      <ul className="list-group">
         {this.renderList()}
       </ul>
     );
