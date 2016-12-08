@@ -6,7 +6,7 @@ import CartReducer from './reducer_cart';
 const rootReducer = combineReducers({
   books: BooksReducer,
   activeBook: ActiveBook,
-  cart: CartReducer,
+  cartItems: CartReducer,
 });
 
 export default rootReducer;
