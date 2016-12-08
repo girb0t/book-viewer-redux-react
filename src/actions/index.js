@@ -6,3 +6,10 @@ export function selectBook(book) {
     payload: book,
   };
 }
+
+export function addToCart(item) {
+  return {
+    type: 'ADD_ITEM_TO_CART',
+    payload: item
+  }
+}
