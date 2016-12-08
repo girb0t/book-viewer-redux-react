@@ -9,13 +9,13 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <div className='col-sm-4'>
+        <div className='col-sm-4' id='book-list'>
           <BookList />
         </div>
-        <div className='col-sm-4'>
+        <div className='col-sm-4' id='book-detail'>
           <BookDetail />
         </div>
-        <div className='col-sm-4'>
+        <div className='col-sm-4' id='cart'>
           <Cart />
         </div>
       </div>
